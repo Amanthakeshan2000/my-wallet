@@ -7,6 +7,7 @@ import NoticePage from "./components/NoticePage";
 import CustomerServiceScreen from "./components/CustomerServiceScreen";
 import MaintenancePage from "./components/MaintenancePage";
 import UserConceptPage from "./components/UserConceptPage";
+import FAQScreen from "./components/FAQScreen";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       {/* <CustomerServiceScreen />  */}
       <MaintenancePage /> 
       <UserConceptPage /> 
+      <FAQScreen /> 
     </div>
   );
 };
