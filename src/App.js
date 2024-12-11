@@ -6,6 +6,8 @@ import Payment from "./components/Payment";
 import NoticePage from "./components/NoticePage";
 import CustomerServiceScreen from "./components/CustomerServiceScreen";
 import MaintenancePage from "./components/MaintenancePage";
+import UserConceptPage from "./components/UserConceptPage";
+
 
 const App = () => {
   return (
@@ -14,9 +16,10 @@ const App = () => {
       {/* <MyWallet /> */}
       {/* <PaymentSuccess /> */}
       {/* <Payment /> */}
-      <NoticePage />
-      <CustomerServiceScreen /> 
+      {/* <NoticePage /> */}
+      {/* <CustomerServiceScreen />  */}
       <MaintenancePage /> 
+      <UserConceptPage /> 
     </div>
   );
 };
